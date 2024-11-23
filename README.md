@@ -30,6 +30,10 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 ![image](https://github.com/user-attachments/assets/bd260979-d296-40da-8dcf-b025d3af2c6d)
+![image](https://github.com/user-attachments/assets/dbbe2341-a079-4994-a666-a394e4e6df83)
+![image](https://github.com/user-attachments/assets/2f295933-a339-4b44-999d-71d440bd3d09)
+
+
 
 
 
