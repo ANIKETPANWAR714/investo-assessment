@@ -28,10 +28,6 @@ export default function PricingSlider() {
     setIsDarkMode(!isDarkMode);
   };
 
-  const handleSliderDarkModeToggle = () => {
-    setIsSliderDarkMode(!isSliderDarkMode); // Toggle the slider's dark mode
-  };
-
   const currentPlan = pricingData[sliderValue];
   const finalPrice = isYearlyBilling
     ? (currentPlan.monthlyPrice * 12 * 0.75).toFixed(2)
