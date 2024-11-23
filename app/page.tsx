@@ -22,9 +22,9 @@ export default function Home() {
   return (
     <div className="overflow-y-auto h-[800px] bg-[hsl(230, 100%, 99%)] dark:bg-gray-900">
       <div className="bg-bg-image bg-cover bg-center h-[65vh]">
-        <div className="flex flex-col items-center">
-          <div className="flex flex-col bg-circles bg-no-repeat w-[600px] h-[200px] bg-top gap-[2px] mt-[50px]">
-            <h1 className="px-[5px] text-center align-text-top text-[35px] font-semibold mt-[40px] text-[hsl(225, 20%, 60%)] dark:text-[hsl(225, 20%, 80%)]">
+        <div className="flex flex-col items-center px-4 sm:px-0">
+          <div className="flex flex-col bg-circles bg-no-repeat w-full sm:w-[600px] h-[200px] bg-top gap-[2px] mt-[50px]">
+            <h1 className="px-4 sm:px-[5px] text-center align-text-top text-[20px] sm:text-[35px] font-semibold mt-[40px] text-[hsl(225, 20%, 60%)] dark:text-[hsl(225, 20%, 80%)]">
               Simple, traffic-based pricing
             </h1>
             <h4 className='text-gray-400 font-semibold text-center dark:text-gray-400'>
@@ -46,4 +46,5 @@ export default function Home() {
     </div>
   );
 }
+
 
