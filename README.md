@@ -23,7 +23,6 @@ Toggle between monthly and yearly billing with a discount applied for yearly bil
 Switch between dark mode and light mode for a personalized experience.
 Screenshot
 
-
 Links
 Solution URL: Add solution URL here
 Live Site URL: Add live site URL here
@@ -46,6 +45,7 @@ Example of dynamic styling with Tailwind CSS and React state:
 
 js
 Copy code
+
 <div className={`flex flex-col items-center w-full space-y-6 px-6 ${isDarkMode ? 'bg-[hsl(227,35%,25%)]' : 'bg-white'}`}>
   {/* Content here */}
 </div>
