@@ -29,9 +29,13 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot.jpg)
-![image](https://github.com/user-attachments/assets/bd260979-d296-40da-8dcf-b025d3af2c6d)
-![image](https://github.com/user-attachments/assets/dbbe2341-a079-4994-a666-a394e4e6df83)
-![image](https://github.com/user-attachments/assets/2f295933-a339-4b44-999d-71d440bd3d09)
+![Screenshot 2024-11-24 041105](https://github.com/user-attachments/assets/9201c781-9524-4333-af7f-98771407827a)
+![Screenshot 2024-11-24 041227](https://github.com/user-attachments/assets/b98437a1-758c-4e4f-9fb4-f44250e90986)
+![Screenshot 2024-11-24 041253](https://github.com/user-attachments/assets/06c1c59c-b093-43da-bae2-49a6474d5e3d)
+![Screenshot 2024-11-24 041310](https://github.com/user-attachments/assets/2630f6a4-e6be-49eb-bd9e-518039655735)
+
+
+
 
 
 
