@@ -6,7 +6,6 @@ export default function PricingSlider() {
   const [sliderValue, setSliderValue] = useState(2); // Default to 100K pageviews
   const [isYearlyBilling, setIsYearlyBilling] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false); // State to manage dark mode
-  const [isSliderDarkMode, setIsSliderDarkMode] = useState(false); // State to toggle slider's dark mode
 
   const pricingData = [
     { views: '10K', monthlyPrice: 8 },
@@ -35,10 +34,10 @@ export default function PricingSlider() {
 
   return (
     <div
-      className={`flex flex-col items-center w-full space-y-6 px-6 ${isDarkMode ? 'bg-[hsl(227,35%,25%)]' : 'bg-white'}`} // Dark mode background
+      className={`flex flex-col items-center w-full space-y-6 px-6 ${isDarkMode ? 'bg-[hsl(227,35%,25%)]' : 'bg-white'}`}
     >
       {/* Dark Mode Toggle Button */}
-      <div className="absolute top-4 left-4 ">
+      <div className="absolute top-4 left-4">
         <button
           onClick={handleDarkModeToggle}
           className={`text-lg font-semibold rounded-3xl bg-cyan-500 ${isDarkMode ? 'text-white' : 'text-[hsl(194,59%,88%)]'} p-2 rounded-md bg-[hsl(223,50%,87%)]`}
@@ -46,16 +45,6 @@ export default function PricingSlider() {
           {isDarkMode ? 'Light Slider' : 'Dark Slider'}
         </button>
       </div>
-
-      {/* Push to Change Slider to Dark Mode Button */}
-      {/* <div className="absolute top-4 -4">
-        <button
-          onClick={handleSliderDarkModeToggle}
-          className={`text-lg font-semibold ${isSliderDarkMode ? 'text-white' : 'text-[hsl(225,20%,60%)]'} p-2 rounded-md bg-[hsl(223,50%,87%)]`}
-        >
-          {isSliderDarkMode ? 'Light Slider' : 'Dark Slider'}
-        </button>
-      </div> */}
 
       {/* Plan Info */}
       <div className="flex flex-col items-center space-y-2">
@@ -76,9 +65,9 @@ export default function PricingSlider() {
         max="4"
         value={sliderValue}
         onChange={handleSliderChange}
-        className={`w-full h-2 rounded-full ${isSliderDarkMode ? 'bg-[hsl(174,86%,45%)]' : 'bg-[hsl(174,77%,80%)]'} appearance-none outline-none slider`}
+        className={`w-full h-2 rounded-full ${isDarkMode ? 'bg-[hsl(174,86%,45%)]' : 'bg-[hsl(174,77%,80%)]'} appearance-none outline-none slider`}
         style={{
-          background: `linear-gradient(to right, ${isSliderDarkMode ? 'hsl(174, 86%, 45%)' : 'hsl(174, 77%, 80%)'} ${(sliderValue / 4) * 100}%, hsl(174, 77%, 80%) ${(sliderValue / 4) * 100}%)`,
+          background: `linear-gradient(to right, ${isDarkMode ? 'hsl(174, 86%, 45%)' : 'hsl(174, 77%, 80%)'} ${(sliderValue / 4) * 100}%, hsl(174, 77%, 80%) ${(sliderValue / 4) * 100}%)`,
         }}
       />
 

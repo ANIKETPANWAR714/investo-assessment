@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import { useState, useEffect } from 'react';
 import HeroCard from "./components/HeroCard";
 
@@ -24,10 +24,10 @@ export default function Home() {
       <div className="bg-bg-image bg-cover bg-center h-[65vh]">
         <div className="flex flex-col items-center">
           <div className="flex flex-col bg-circles bg-no-repeat w-[600px] h-[200px] bg-top gap-[2px] mt-[50px]">
-            <h1 className="px-[5px] text-center align-text-top text-[35px] font-semibold mt-[40px] text-[hsl(225, 20%, 60%)] dark:text-white">
+            <h1 className="px-[5px] text-center align-text-top text-[35px] font-semibold mt-[40px] text-[hsl(225, 20%, 60%)] dark:text-[hsl(225, 20%, 80%)]">
               Simple, traffic-based pricing
             </h1>
-            <h4 className='text-gray-400 font-semibold text-center dark:text-gray-200'>
+            <h4 className='text-gray-400 font-semibold text-center dark:text-gray-400'>
               Sign-up for our 30-day trial. No credit card required
             </h4>
           </div>
@@ -46,3 +46,4 @@ export default function Home() {
     </div>
   );
 }
+
